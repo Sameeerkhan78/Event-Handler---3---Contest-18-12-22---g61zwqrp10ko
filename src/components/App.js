@@ -11,16 +11,9 @@ const App = () => {
   // do not change id of input elements
   return (
     <div id="main">
-      <label htmlFor='text-input'>Text Input:- </label>
-      <input id="text-input" type={'text'} />
-    <button id="button-a" onclick=[handleInput ]>Button A </button>
-   <button id="button-b" onclick=[handleInput ]>Button B </button>
-      <br/>
-      <br/>
-
-      <label htmlFor='num-input'>Number input</label>
-      <input id="num-input"  type={'number'} />
-      <br/>
+     
+          <button id="button-a" onclick=[handleInput ]>Button A </button>
+          <button id="button-b" onclick=[handleInput ]>Button B </button>
     </div>
   )
 }
