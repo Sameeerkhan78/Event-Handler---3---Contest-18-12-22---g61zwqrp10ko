@@ -12,8 +12,8 @@ const App = () => {
   return (
     <div id="main">
      
-          <button id="button-a" onclick=[handleInput ]>Button A </button>
-          <button id="button-b" onclick=[handleInput ]>Button B </button>
+          <button id="button-a" onclick={handleInput }>Button A </button>
+          <button id="button-b" onclick={handleInput}>Button B </button>
     </div>
   )
 }
