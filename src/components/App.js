@@ -14,6 +14,15 @@ const App = () => {
      
           <button id="button-a" onclick={handleInput }>Button A </button>
           <button id="button-b" onclick={handleInput}>Button B </button>
+    <label htmlFor='text-input'>Text Input:- </label>
+      <input id="text-input" type={'text'} />
+  
+      <br/>
+      <br/>
+
+      <label htmlFor='num-input'>Number input</label>
+      <input id="num-input"  type={'number'} />
+      <br/>
     </div>
   )
 }
