@@ -4,6 +4,8 @@ const App = () => {
 
   const handleInput = (event) =>{
    // use console.log
+    const id = event.target.id;
+    console.log("Button id is:-")
   }
 
   // do not change id of input elements
@@ -11,7 +13,8 @@ const App = () => {
     <div id="main">
       <label htmlFor='text-input'>Text Input:- </label>
       <input id="text-input" type={'text'} />
-
+    <button id="button-a" onclick=[handleInput ]>Button A </button>
+   <button id="button-b" onclick=[handleInput ]>Button B </button>
       <br/>
       <br/>
 
