@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/App.css';
 const App = () => {
 
-  const handleClick = (event) =>{
+  const handleInput = (event) =>{
    // use console.log
     const id = event.target.id;
     console.log("Button id is:-" +{id});
@@ -12,8 +12,8 @@ const App = () => {
   return (
     <div id="main">
      
-          <button id="button-a" onclick={handleClick}>Button A </button>
-          <button id="button-b" onclick={handleClick}>Button B </button>
+          <button id="button-a" onclick={handleInput}>Button A </button>
+          <button id="button-b" onclick={handleInput}>Button B </button>
    
     </div>
   )
